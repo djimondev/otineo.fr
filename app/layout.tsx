@@ -9,6 +9,9 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "Otineo",
   description: "Welcome to Otineo's website",
+  icons: {
+    icon: "/favicon.gif",
+  },
 };
 
 export default function RootLayout({

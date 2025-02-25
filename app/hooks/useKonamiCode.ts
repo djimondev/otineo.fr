@@ -19,7 +19,6 @@ export const useKonamiCode = () => {
 
   useEffect(() => {
     const handleKeydown = (event: KeyboardEvent) => {
-      const key = event.key.toLowerCase();
       const newSequence = [...sequence, event.key];
 
       if (newSequence.length > KONAMI_CODE.length) {
