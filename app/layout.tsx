@@ -8,7 +8,7 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: "Otineo",
-  description: "Welcome to Otineo's website",
+  description: "Connecter les idées aux solutions",
   icons: {
     icon: "/favicon.svg",
   },
